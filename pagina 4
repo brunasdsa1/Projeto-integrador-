@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color:forestgreen ;
+    }
+</style>
+<body>
+    <h1>FAQ sobre Rede</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Curiosidade de TI.html">IR PARA CURIOSIDADE SOBRE TI</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é rede de computadores?</li>
+            <li onclick="redirectToResponse(2)">Quais são os principais benefícios de se ter uma rede de computadores?</li>
+            <li onclick="redirectToResponse(3)">Quais são os tipos mais comuns de redes de computadores?</li>
+            <li onclick="redirectToResponse(4)">O que é endereço IP e qual é sua função em uma rede?</li>
+            <li onclick="redirectToResponse(5)">Explique o que é um roteador um uma rede de computadores?</li>
+            <li onclick="redirectToResponse(6)">Quais são os protocolos de comunicação fundamentais em redes de computadores?</li>
+            <li onclick="redirectToResponse(7)">O que é um firewall e qual é seu papel em uma rede?</li>
+            <li onclick="redirectToResponse(8)">Explique o conceito de topologia de rede?</li>
+            <li onclick="redirectToResponse(9)">O que é uma VPN (Rede Privada Virtual) e para que ela é utilizada?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "Uma rede de computadores é um conjunto interconectado de dispositivos, como computadores e servidores, que compartilham recursos e informações.",
+            2: "Os benefícios incluem o compartilhamento de recursos (como impressoras e arquivos), comunicação eficiente, acesso à internet, facilidade de gerenciamento e maior flexibilidade no trabalho colaborativo.",
+            3: "As principais categorias incluem LANs (Rede Locais), WANs (Redes de Área Ampla), MANs (Redes Metropolitanas) e PANs (Redes Pssoais).",
+            4: "Um endereço IP (Protocolo de Internet) é um identificador único atribuído a cada dispositivo em uma rede. Ele é usado para rotear dados entre dispositivos e garantir a entrega correta.",
+            5: "Um roteador é um dispositivo que encaminha dados entre diferentes redes. Ele toma deciões com base nos endereços IP dos pacotes para determinar a rota mais eficiente para a entrega.",
+            6: "TCP/IP (Protocolo de Controle de Transmissão/Protocolo de Internet) é o conjunto de protocolos predominante, usado para comunicação na Internet.",
+            7: "Um firewall é um sistema de segurança que monitora e controla o tráfego de rede com base em regras predefinidas. Ele protege a rede contra acessos não autorizados e ameaças externas.",
+            8: "A topologia de redes refere-se ao layout físico ou lógico da rede, incluindo a maneira como os dispositivos estão interconectados. Exemplos comuns incluem topologia em estrela, em anel e em barramento.",
+            9: "Uma VPN é uma rede privada que utiliza uma infraestrutura pública, como a internet, para conectar usuários ou redes remotas de forma segura. Ela é usada para garantir a privacidade e a segurança das comunicações em ambientes online.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
