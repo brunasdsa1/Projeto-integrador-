@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color: forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ Sobre Segurança da Informação</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Hardware.html">IR PARA O CHAT DE HARDWARE</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é criptografia e qual é o seu papel na segurança da informação?</li>
+            <li onclick="redirectToResponse(2)">Quais são os principais desafios na gestão de senhas para garantir a segurança da informação?</li>
+            <li onclick="redirectToResponse(3)">Como as ameaças internas podem impactar a segurança da informação em uma organização?</li>
+            <li onclick="redirectToResponse(4)">O que é um ataque de phishing e como as organizações podem se proteger contra ele?</li>
+            <li onclick="redirectToResponse(5)">Qual é a importância de realizar auditorias de segurança da informação em uma empresa?</li>
+            <li onclick="redirectToResponse(6)">Como a segurança física está relacionada à segurança da informação?</li>
+            <li onclick="redirectToResponse(7)">Por que a atualização regular de software é uma prática importante na segurança da informação?</li>
+            <li onclick="redirectToResponse(8)">Qual é a importância de backups regulares na segurança da informação?</li>
+            <li onclick="redirectToResponse(9)">Como a conscientização dos funcionários contribui para a segurança da informação?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "A criptografia é um método de codificação de dados para proteger sua confidencialidade e integridade. Ela desempenha um papel crucial na segurança da informação ao converter informações em formato ilegível para pessoas não autorizadas, sendo decodificadas apenas por quem possui a chave correspondente.",
+            2: "A gestão de senhas enfrenta desafios como a criação de senhas robustas, a necessidade de atualizações periódicas e a dificuldade de lembrar senhas complexas. A autenticação de dois fatores (2FA) é uma medida adicional recomendada para mitigar esses desafios.",
+            3: "As ameaças internas, originadas por funcionários ou colaboradores, representam um risco significativo. Isso inclui acesso não autorizado a dados confidenciais, vazamento de informações adicionais e sabotagem. Controles de acesso e monitoramento são essenciais para mitigar essas ameaças.",
+            4: " O phishing é uma técnica em que os aventureiros tentam enganar as pessoas para obter informações úteis. Para se proteger, as organizações devem educar os funcionários sobre o reconhecimento de e-mails e links suspeitos, implementar filtros antiphishing e promover práticas de segurança cibernética.",
+            5: "As auditorias de segurança da informação ajudam a avaliar a eficácia dos controles de segurança, identificar vulnerabilidades e garantir a conformidade com políticas e regulamentações. Essas auditorias são essenciais para manter um ambiente seguro e proteger os ativos de informação da organização.",
+            6: "A segurança física é crucial para proteger equipamentos e instalações que armazenam informações confidenciais. Isso inclui a implementação de controles de acesso físico, vigilância por vídeo e proteção contra desastres naturais para garantir a integridade dos sistemas de informação.",
+            7: "As atualizações regulares de software incluem alterações de vulnerabilidades descobertas, melhorando a resistência contra ataques. Ignorar essas atualizações pode deixar sistemas e aplicativos expostos a explorações de segurança, comprometendo a integridade e a confidencialidade dos dados.",
+            8: "Backups regulares são essenciais para a recuperação de dados em caso de perda, seja por falha técnica, ataque de malware ou desastre. A implementação de políticas de backup adequadas ajuda a garantir a continuidade dos negócios e a proteção contra a perda irreparável de informações críticas.",
+            9: "A conscientização dos funcionários é fundamental, pois eles são frequentemente a primeira linha de defesa contra ameaças cibernéticas. Os treinamentos regulares ajudam a evitar práticas inseguras, como clicar em links maliciosos, e promovem uma cultura de segurança, fortalecendo a postura global da organização contra ameaças.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
