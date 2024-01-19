@@ -1,0 +1,1068 @@
+[Ontem 17:27] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central do FAQ.TI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+ 
+        header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+ 
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            width: 100%;
+        }
+ 
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+ 
+        .navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        .navbar a:hover {
+            background-color: forestgreen;
+        }
+ 
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+        }
+ 
+        .button-container button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+ 
+        .container {
+            color: white;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+ 
+        h1 {
+            text-align: center;
+ 
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+ 
+    <footer>
+        <div class="navbar">
+        </div>
+    </footer>
+    <div class="container">
+        <div class="topnav">
+        </div>
+ 
+        <h1>FAQ.TI</h1>
+        <hr>
+        <div class="button-container">
+            <button><a target="_blank" href='Chat sobre Hardware.html'>Hardware</a></button>
+            <button><a target="_blank" href='chat sobre Rede.html'>Redes</a></button>
+            <button><a target="_blank" href='Chat sobre Programação.html'>Programação</a></button>
+            <button><a target="_blank" href='Chat sobre Segurança da Informação.html'>Segurança da
+                    informação</a></button>
+            <button><a target="_blank" href='Chat sobre Curiosidade de TI.html'>Curiosidades sobre TI</a></button>
+        </div>
+ 
+        <body>
+            <div class="container">
+                <hr>
+                <h1>Bem-vindo ao FAQ.TI - Seu Guia Interativo de Tecnologia da Informação!</h1>
+ 
+                <p class="welcome text" Embarque em uma jornada educativa conosco, onde desvendamos os mistérios e
+                    exploramos os fascinantes elementos do vasto universo da Tecnologia da Informação (TI). Aqui,
+                    oferecemos insights valiosos sobre diversos tópicos, incluindo:></p>
+            </div>
+            <ul class="welcome-text">
+                <div class="container"></div>
+                <ol>- Hardware: Descubra os componentes essenciais que formam o núcleo da tecnologia moderna.</ol>
+ 
+                <ol>- Redes: Explore os intrincados caminhos da conectividade digital e da comunicação eficiente.</ol>
+ 
+                <ol>- Programação: Aprenda a linguagem que dá vida aos softwares e aplicativos inovadores.</ol>
+ 
+                <ol>- Segurança da Informação:Compreenda a importância vital de proteger dados e sistemas contra ameaças
+                    digitais.</ol>
+ 
+                <ol>- Curiosidades sobre TI: Maravilhe-se com fatos interessantes e curiosidades que permeiam o mundo da
+                    Tecnologia da Informação.</ol>
+ 
+                <ol>
+                    Estamos aqui para ser o seu guia, respondendo às suas perguntas, fornecendo informações valiosas e
+                    tornando
+                    sua experiência de aprendizado em TI envolvente. Sinta-se à vontade para explorar os tópicos acima,
+                    descobrir novidades e aprofundar seus conhecimentos em TI. A tecnologia está em constante evolução,
+                    e
+                    estamos aqui para acompanhá-lo nessa incrível jornada de descobertas. Vamos explorar o universo da
+                    TI
+                    juntos!
+                </ol>
+                <div class=container></div>
+            </ul>
+ 
+            <body
+                style="background-image: url('https://newsoft.online/wp-content/uploads/2017/02/office-wallpaper-9.jpg');">
+ 
+ 
+                </p>
+            </body>
+ 
+</html>
+[Ontem 17:27] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color: forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ sobre curiosidade TI</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Programação.html">IR PARA PROGRAMAÇÃO</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">Qual é a diferença entre inteligência artificial (IA) e aprendizado de máquina (ML)?</li>
+            <li onclick="redirectToResponse(2)">Como os algoritimos de recomendação funcionam em serviços como Netflix ou Amazon?</li>
+            <li onclick="redirectToResponse(3)">O que é internet das coisas (loT)?</li>
+            <li onclick="redirectToResponse(4)">Como funciona a criptografia na segurança da informação?</li>
+            <li onclick="redirectToResponse(5)">O que são redes neurais artificiais?</li>
+            <li onclick="redirectToResponse(6)">Qual é o papel dos algoritmos de busca na internet?</li>
+            <li onclick="redirectToResponse(7)">O que são chatbots e como eles funcionam?</li>
+            <li onclick="redirectToResponse(8)">Como a realidade virtual (VR) difere da realidade aumentada (AR)?</li>
+            <li onclick="redirectToResponse(9)">O que é aprendizado profundo (deep learning)?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "A inteligência artificial é o campo mais amplo que busaca criar máquina capazes de realizar tarefas que normalmente exigiriam inteligência humana, enquando o aprendizado de máquina é uma abordagem específica dentro da IA que se concentra em desenvolver algoritimos que permitem que as máquinas aprendam a partir de dados.",
+            2: "Os algoritimos de recomendação analisam o histórico de interações do usuário, como visualizações de filmes ou compras, e utilizam técnicas de aprendizado de máquina para prever quais itens o usuário pode gostar, com base em padrões identificados em usuários semelhantes.",
+            3: "A Internet das Coisas refere-se à interconexão de dispositivos físicos (como eletrodomésticos, veículos e sensores) por meio da internet, permitindo a coleta e troca de dados entre esses dispositivos.",
+            4: "A criptografia envolve a codificação de dados para torná-los ilegíveis para qualquer pessoa sem a chave de descriptografia correspondente, garantinto assim a segurança e a confidencialidade das informações transmitidas.",
+            5: "Redes neurais artificiais são modelos computacionais inspirados no funcionamento do cérebro humano. Elas são utilizadas em aprendizado de máquina para reconhecimento de padrões de tomada de decisões.",
+            6: "Algoritimos de busca são projetados para examinar vastas quantidades de informações na web e fornecer resultados relevantes em resposta a consultas dos usuários, como a algoritmo PageRank utilizado pelo Google.",
+            7: "Chatbots são programas de computador projetados para simular conversas humanas. Eles usam inteligência artificial para entender perguntas e fornecer respostas adequadas, sendo comumente usados em serviços de atendimentos ao cliente online.",
+            8: "A realidade virtual cria um ambiente totalmente novo e imersivo, enquanto a realidade aumentada adiciona elementos virtuais ao ambiente real, geralmente visualizados por meio de dispositivos como smartphones ou ocúlos especiais.",
+            9: "O aprendizado profundo é uma subárea do aprendizado de máquinas que utiliza redes neurais profundas para aprender representações de dados em vários níveis de complexidade, permitindo a extração de características mais abstratas e a resolução de tarefas complexas.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+[Ontem 17:27] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color:forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ sobre Hardware</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png">
+    <a href="chat sobre Rede.html">IR PARA O CHAT DE REDE</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é Hardware?</li>
+            <li onclick="redirectToResponse(2)">O que é um processador?</li>
+            <li onclick="redirectToResponse(3)">O que é placa-mãe?</li>
+            <li onclick="redirectToResponse(4)">O que é fonte de energia?</li>
+            <li onclick="redirectToResponse(5)">O que é HD?</li>
+            <li onclick="redirectToResponse(6)">O que é um monitor?</li>
+            <li onclick="redirectToResponse(7)">O que é um teclado?</li>
+            <li onclick="redirectToResponse(8)">O que é um mouse?</li>
+            <li onclick="redirectToResponse(9)">O que é webcam?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "Hardware são os componentes físicos que compõem um computador.",
+            2: "Processador é uma parte vital dos componentes de hardware, ele serve para processar tudo o que o computador precisa para funcionar.",
+            3: "A placa-mãe é o componente onde todas as peças são conectadas e interligadas.",
+            4: "A fonte de energia é crucial para o funcionamento das peças de hardware, ela alimenta as peças dando energia para que elas funcionem perfeitamente.",
+            5: "HD é onde é armazenado todas as informações que você salvou.",
+            6: "O monitor é o componente visual onde você pode ver o que está fazendo em tempo real.",
+            7: "O teclado é o componente de entrada com todas as teclas que podem ser clicadas, executando ações.",
+            8: "O mouse é um cursor que auxilia nas pesquisas em páginas WEB, garantindo uma pesquisa rápida e precisa.",
+            9: "A webcam é uma câmera que serve para gravar o seu rosto em tempo real."
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+[Ontem 17:27] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color: forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ Sobre Programação</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Segurança da Informação.html">IR PARA SEGURANÇA DA INFORMAÇÃO</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é programação orientada a objetos?</li>
+            <li onclick="redirectToResponse(2)">Qual é a diferença entre linguagens de programação interpretadas e complementadas?</li>
+            <li onclick="redirectToResponse(3)">O que são execões em programação e como são tratadas?</li>
+            <li onclick="redirectToResponse(4)">Explique o conceito de polimorfismo na programação.</li>
+            <li onclick="redirectToResponse(5)">O que são variáveis de escopo local e global?</li>
+            <li onclick="redirectToResponse(6)">Qual é a diferença entre uma linguagem de programação de alto nível e uma de baixo nível?</li>
+            <li onclick="redirectToResponse(7)">O que é versionamento de código e por que é importante?</li>
+            <li onclick="redirectToResponse(8)">Explique a diferença entre uma linguagem de programação compilada e uma interpretada.</li>
+            <li onclick="redirectToResponse(9)">O que é RESTful em desenvolvimento wed?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "A programação orientada a objetos é um paradigma de programação que organiza o código em 'objeto', que têm atributos e métodos, promovento a reutilização de código e uma abordagem modular no desenvolvimento de software.",
+            2: "Linguagens interpretadas são executadas linha por linha, enquanto linguagens compiladas são traduzidas inteiramente para a linguagem de máquina antes da execução. Exemplos de linguagens interpretadas incluem Python e JavaScript, enquanto C e Java são linguagens compiladas.",
+            3: "Exceções são eventos que ocorrem durante a execução de um programa e imterrompem o fluxo normal de operação. Elas são geralmente tratadas por meio de blocos try-catch, onde o código que pode gerar uma exceção é colocado dentro do bloco try, e as ações de tratamento são definidas no bloco catch.",
+            4: "Polimorfismo permite que objetos de diferentes tipos sejam tratados de maneira uniforme. Isso pode ocorrer através de sobrecarga de métodos (métodos com o mesmo nome, mas diferentes parâmetros) ou pela implementação de interfaces em linguagens como Java.",
+            5: "variáveis de escopo local são acessíveis apenas dentro do bloco de código em que foram declaradas, enquanto variáveis de escopo global podem ser acessadas de qualquer lugar no programa. O uso adequado de escopo é crucial para evitar conflitos e bugs.",
+            6: "Linguagens de alto nível são mais abstratas e próximas da linguagens de baixo nível são mais próximas da linguagem de máquina e oferecem mais controle sobre o hardware.",
+            7: "Versionamento de código é o controle sistemático de alterações no código-fonte. Ferramentas como Git permitem o rastreamento das modificações ao longo do tempo, facilitando a colaboração entre desenvolvedores e revertendo alterações indesejadas.",
+            8: "Uma linguagem compilada é traduzida integralmente para código de máquina antes da execução, resultando em um arquivo executável.Já uma linguagem interpretada é traduzida linha por linha durante a execução, sem a necessidade de compilar antecipadamente.",
+            9: "RESTful refere-se a serviços web que aderem aos princípios da arquitetura REST (Transferência de Estado Representacional). Eles usam operações HTTP padrão (GET,POST,PUT,DELETE) para realizar ações e são conhecidos por serem simples, escaláveis e interoperáveis.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+[Ontem 17:28] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color:forestgreen ;
+    }
+</style>
+<body>
+    <h1>FAQ sobre Rede</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Curiosidade de TI.html">IR PARA CURIOSIDADE SOBRE TI</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é rede de computadores?</li>
+            <li onclick="redirectToResponse(2)">Quais são os principais benefícios de se ter uma rede de computadores?</li>
+            <li onclick="redirectToResponse(3)">Quais são os tipos mais comuns de redes de computadores?</li>
+            <li onclick="redirectToResponse(4)">O que é endereço IP e qual é sua função em uma rede?</li>
+            <li onclick="redirectToResponse(5)">Explique o que é um roteador um uma rede de computadores?</li>
+            <li onclick="redirectToResponse(6)">Quais são os protocolos de comunicação fundamentais em redes de computadores?</li>
+            <li onclick="redirectToResponse(7)">O que é um firewall e qual é seu papel em uma rede?</li>
+            <li onclick="redirectToResponse(8)">Explique o conceito de topologia de rede?</li>
+            <li onclick="redirectToResponse(9)">O que é uma VPN (Rede Privada Virtual) e para que ela é utilizada?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "Uma rede de computadores é um conjunto interconectado de dispositivos, como computadores e servidores, que compartilham recursos e informações.",
+            2: "Os benefícios incluem o compartilhamento de recursos (como impressoras e arquivos), comunicação eficiente, acesso à internet, facilidade de gerenciamento e maior flexibilidade no trabalho colaborativo.",
+            3: "As principais categorias incluem LANs (Rede Locais), WANs (Redes de Área Ampla), MANs (Redes Metropolitanas) e PANs (Redes Pssoais).",
+            4: "Um endereço IP (Protocolo de Internet) é um identificador único atribuído a cada dispositivo em uma rede. Ele é usado para rotear dados entre dispositivos e garantir a entrega correta.",
+            5: "Um roteador é um dispositivo que encaminha dados entre diferentes redes. Ele toma deciões com base nos endereços IP dos pacotes para determinar a rota mais eficiente para a entrega.",
+            6: "TCP/IP (Protocolo de Controle de Transmissão/Protocolo de Internet) é o conjunto de protocolos predominante, usado para comunicação na Internet.",
+            7: "Um firewall é um sistema de segurança que monitora e controla o tráfego de rede com base em regras predefinidas. Ele protege a rede contra acessos não autorizados e ameaças externas.",
+            8: "A topologia de redes refere-se ao layout físico ou lógico da rede, incluindo a maneira como os dispositivos estão interconectados. Exemplos comuns incluem topologia em estrela, em anel e em barramento.",
+            9: "Uma VPN é uma rede privada que utiliza uma infraestrutura pública, como a internet, para conectar usuários ou redes remotas de forma segura. Ela é usada para garantir a privacidade e a segurança das comunicações em ambientes online.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+ 
+[Ontem 17:28] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color: forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ Sobre Segurança da Informação</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Hardware.html">IR PARA O CHAT DE HARDWARE</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é criptografia e qual é o seu papel na segurança da informação?</li>
+            <li onclick="redirectToResponse(2)">Quais são os principais desafios na gestão de senhas para garantir a segurança da informação?</li>
+            <li onclick="redirectToResponse(3)">Como as ameaças internas podem impactar a segurança da informação em uma organização?</li>
+            <li onclick="redirectToResponse(4)">O que é um ataque de phishing e como as organizações podem se proteger contra ele?</li>
+            <li onclick="redirectToResponse(5)">Qual é a importância de realizar auditorias de segurança da informação em uma empresa?</li>
+            <li onclick="redirectToResponse(6)">Como a segurança física está relacionada à segurança da informação?</li>
+            <li onclick="redirectToResponse(7)">Por que a atualização regular de software é uma prática importante na segurança da informação?</li>
+            <li onclick="redirectToResponse(8)">Qual é a importância de backups regulares na segurança da informação?</li>
+            <li onclick="redirectToResponse(9)">Como a conscientização dos funcionários contribui para a segurança da informação?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "A criptografia é um método de codificação de dados para proteger sua confidencialidade e integridade. Ela desempenha um papel crucial na segurança da informação ao converter informações em formato ilegível para pessoas não autorizadas, sendo decodificadas apenas por quem possui a chave correspondente.",
+            2: "A gestão de senhas enfrenta desafios como a criação de senhas robustas, a necessidade de atualizações periódicas e a dificuldade de lembrar senhas complexas. A autenticação de dois fatores (2FA) é uma medida adicional recomendada para mitigar esses desafios.",
+            3: "As ameaças internas, originadas por funcionários ou colaboradores, representam um risco significativo. Isso inclui acesso não autorizado a dados confidenciais, vazamento de informações adicionais e sabotagem. Controles de acesso e monitoramento são essenciais para mitigar essas ameaças.",
+            4: " O phishing é uma técnica em que os aventureiros tentam enganar as pessoas para obter informações úteis. Para se proteger, as organizações devem educar os funcionários sobre o reconhecimento de e-mails e links suspeitos, implementar filtros antiphishing e promover práticas de segurança cibernética.",
+            5: "As auditorias de segurança da informação ajudam a avaliar a eficácia dos controles de segurança, identificar vulnerabilidades e garantir a conformidade com políticas e regulamentações. Essas auditorias são essenciais para manter um ambiente seguro e proteger os ativos de informação da organização.",
+            6: "A segurança física é crucial para proteger equipamentos e instalações que armazenam informações confidenciais. Isso inclui a implementação de controles de acesso físico, vigilância por vídeo e proteção contra desastres naturais para garantir a integridade dos sistemas de informação.",
+            7: "As atualizações regulares de software incluem alterações de vulnerabilidades descobertas, melhorando a resistência contra ataques. Ignorar essas atualizações pode deixar sistemas e aplicativos expostos a explorações de segurança, comprometendo a integridade e a confidencialidade dos dados.",
+            8: "Backups regulares são essenciais para a recuperação de dados em caso de perda, seja por falha técnica, ataque de malware ou desastre. A implementação de políticas de backup adequadas ajuda a garantir a continuidade dos negócios e a proteção contra a perda irreparável de informações críticas.",
+            9: "A conscientização dos funcionários é fundamental, pois eles são frequentemente a primeira linha de defesa contra ameaças cibernéticas. Os treinamentos regulares ajudam a evitar práticas inseguras, como clicar em links maliciosos, e promovem uma cultura de segurança, fortalecendo a postura global da organização contra ameaças.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+[Ontem 17:28] Bruna Gontijo Lacerda
+C:\Users\928170\Desktop\Integrador\Robô.png
+[Ontem 17:33] Bruna Gontijo Lacerda
+C:\Users\928170\Desktop\Integrador\Central.html
+[Ontem 17:33] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Central do FAQ.TI</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+ 
+        header {
+            background-color: #f1f1f1;
+            padding: 20px;
+            text-align: center;
+        }
+ 
+        .navbar {
+            overflow: hidden;
+            background-color: #333;
+            width: 100%;
+        }
+ 
+        .navbar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: space-between;
+        }
+ 
+        .navbar a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+ 
+        .navbar a:hover {
+            background-color: forestgreen;
+        }
+ 
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+            color: white;
+        }
+ 
+        .button-container button {
+            padding: 10px 20px;
+            margin: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+        }
+ 
+        .container {
+            color: white;
+            font-size: 16px;
+            line-height: 1.5;
+        }
+ 
+        h1 {
+            text-align: center;
+ 
+        }
+    </style>
+</head>
+ 
+<body>
+ 
+ 
+    <footer>
+        <div class="navbar">
+        </div>
+    </footer>
+    <div class="container">
+        <div class="topnav">
+        </div>
+ 
+        <h1>FAQ.TI</h1>
+        <hr>
+        <div class="button-container">
+            <button><a target="_blank" href='Chat sobre Hardware.html'>Hardware</a></button>
+            <button><a target="_blank" href='chat sobre Rede.html'>Redes</a></button>
+            <button><a target="_blank" href='Chat sobre Programação.html'>Programação</a></button>
+            <button><a target="_blank" href='Chat sobre Segurança da Informação.html'>Segurança da
+                    informação</a></button>
+            <button><a target="_blank" href='Chat sobre Curiosidade de TI.html'>Curiosidades sobre TI</a></button>
+        </div>
+ 
+        <body>
+            <div class="container">
+                <hr>
+                <h1>Bem-vindo ao FAQ.TI - Seu Guia Interativo de Tecnologia da Informação!</h1>
+ 
+                <p class="welcome text" Embarque em uma jornada educativa conosco, onde desvendamos os mistérios e
+                    exploramos os fascinantes elementos do vasto universo da Tecnologia da Informação (TI). Aqui,
+                    oferecemos insights valiosos sobre diversos tópicos, incluindo:></p>
+            </div>
+            <ul class="welcome-text">
+                <div class="container"></div>
+                <ol>- Hardware: Descubra os componentes essenciais que formam o núcleo da tecnologia moderna.</ol>
+ 
+                <ol>- Redes: Explore os intrincados caminhos da conectividade digital e da comunicação eficiente.</ol>
+ 
+                <ol>- Programação: Aprenda a linguagem que dá vida aos softwares e aplicativos inovadores.</ol>
+ 
+                <ol>- Segurança da Informação:Compreenda a importância vital de proteger dados e sistemas contra ameaças
+                    digitais.</ol>
+ 
+                <ol>- Curiosidades sobre TI: Maravilhe-se com fatos interessantes e curiosidades que permeiam o mundo da
+                    Tecnologia da Informação.</ol>
+ 
+                <ol>
+                    Estamos aqui para ser o seu guia, respondendo às suas perguntas, fornecendo informações valiosas e
+                    tornando
+                    sua experiência de aprendizado em TI envolvente. Sinta-se à vontade para explorar os tópicos acima,
+                    descobrir novidades e aprofundar seus conhecimentos em TI. A tecnologia está em constante evolução,
+                    e
+                    estamos aqui para acompanhá-lo nessa incrível jornada de descobertas. Vamos explorar o universo da
+                    TI
+                    juntos!
+                </ol>
+                <div class=container></div>
+            </ul>
+ 
+            <body
+                style="background-image: url('https://newsoft.online/wp-content/uploads/2017/02/office-wallpaper-9.jpg');">
+ 
+ 
+                </p>
+            </body>
+ 
+</html>
+[Ontem 17:33] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color: forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ sobre curiosidade TI</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Programação.html">IR PARA PROGRAMAÇÃO</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">Qual é a diferença entre inteligência artificial (IA) e aprendizado de máquina (ML)?</li>
+            <li onclick="redirectToResponse(2)">Como os algoritimos de recomendação funcionam em serviços como Netflix ou Amazon?</li>
+            <li onclick="redirectToResponse(3)">O que é internet das coisas (loT)?</li>
+            <li onclick="redirectToResponse(4)">Como funciona a criptografia na segurança da informação?</li>
+            <li onclick="redirectToResponse(5)">O que são redes neurais artificiais?</li>
+            <li onclick="redirectToResponse(6)">Qual é o papel dos algoritmos de busca na internet?</li>
+            <li onclick="redirectToResponse(7)">O que são chatbots e como eles funcionam?</li>
+            <li onclick="redirectToResponse(8)">Como a realidade virtual (VR) difere da realidade aumentada (AR)?</li>
+            <li onclick="redirectToResponse(9)">O que é aprendizado profundo (deep learning)?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "A inteligência artificial é o campo mais amplo que busaca criar máquina capazes de realizar tarefas que normalmente exigiriam inteligência humana, enquando o aprendizado de máquina é uma abordagem específica dentro da IA que se concentra em desenvolver algoritimos que permitem que as máquinas aprendam a partir de dados.",
+            2: "Os algoritimos de recomendação analisam o histórico de interações do usuário, como visualizações de filmes ou compras, e utilizam técnicas de aprendizado de máquina para prever quais itens o usuário pode gostar, com base em padrões identificados em usuários semelhantes.",
+            3: "A Internet das Coisas refere-se à interconexão de dispositivos físicos (como eletrodomésticos, veículos e sensores) por meio da internet, permitindo a coleta e troca de dados entre esses dispositivos.",
+            4: "A criptografia envolve a codificação de dados para torná-los ilegíveis para qualquer pessoa sem a chave de descriptografia correspondente, garantinto assim a segurança e a confidencialidade das informações transmitidas.",
+            5: "Redes neurais artificiais são modelos computacionais inspirados no funcionamento do cérebro humano. Elas são utilizadas em aprendizado de máquina para reconhecimento de padrões de tomada de decisões.",
+            6: "Algoritimos de busca são projetados para examinar vastas quantidades de informações na web e fornecer resultados relevantes em resposta a consultas dos usuários, como a algoritmo PageRank utilizado pelo Google.",
+            7: "Chatbots são programas de computador projetados para simular conversas humanas. Eles usam inteligência artificial para entender perguntas e fornecer respostas adequadas, sendo comumente usados em serviços de atendimentos ao cliente online.",
+            8: "A realidade virtual cria um ambiente totalmente novo e imersivo, enquanto a realidade aumentada adiciona elementos virtuais ao ambiente real, geralmente visualizados por meio de dispositivos como smartphones ou ocúlos especiais.",
+            9: "O aprendizado profundo é uma subárea do aprendizado de máquinas que utiliza redes neurais profundas para aprender representações de dados em vários níveis de complexidade, permitindo a extração de características mais abstratas e a resolução de tarefas complexas.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+[Ontem 17:34] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color:forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ sobre Hardware</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png">
+    <a href="chat sobre Rede.html">IR PARA O CHAT DE REDE</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é Hardware?</li>
+            <li onclick="redirectToResponse(2)">O que é um processador?</li>
+            <li onclick="redirectToResponse(3)">O que é placa-mãe?</li>
+            <li onclick="redirectToResponse(4)">O que é fonte de energia?</li>
+            <li onclick="redirectToResponse(5)">O que é HD?</li>
+            <li onclick="redirectToResponse(6)">O que é um monitor?</li>
+            <li onclick="redirectToResponse(7)">O que é um teclado?</li>
+            <li onclick="redirectToResponse(8)">O que é um mouse?</li>
+            <li onclick="redirectToResponse(9)">O que é webcam?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "Hardware são os componentes físicos que compõem um computador.",
+            2: "Processador é uma parte vital dos componentes de hardware, ele serve para processar tudo o que o computador precisa para funcionar.",
+            3: "A placa-mãe é o componente onde todas as peças são conectadas e interligadas.",
+            4: "A fonte de energia é crucial para o funcionamento das peças de hardware, ela alimenta as peças dando energia para que elas funcionem perfeitamente.",
+            5: "HD é onde é armazenado todas as informações que você salvou.",
+            6: "O monitor é o componente visual onde você pode ver o que está fazendo em tempo real.",
+            7: "O teclado é o componente de entrada com todas as teclas que podem ser clicadas, executando ações.",
+            8: "O mouse é um cursor que auxilia nas pesquisas em páginas WEB, garantindo uma pesquisa rápida e precisa.",
+            9: "A webcam é uma câmera que serve para gravar o seu rosto em tempo real."
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+[Ontem 17:34] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color: forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ Sobre Programação</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Segurança da Informação.html">IR PARA SEGURANÇA DA INFORMAÇÃO</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é programação orientada a objetos?</li>
+            <li onclick="redirectToResponse(2)">Qual é a diferença entre linguagens de programação interpretadas e complementadas?</li>
+            <li onclick="redirectToResponse(3)">O que são execões em programação e como são tratadas?</li>
+            <li onclick="redirectToResponse(4)">Explique o conceito de polimorfismo na programação.</li>
+            <li onclick="redirectToResponse(5)">O que são variáveis de escopo local e global?</li>
+            <li onclick="redirectToResponse(6)">Qual é a diferença entre uma linguagem de programação de alto nível e uma de baixo nível?</li>
+            <li onclick="redirectToResponse(7)">O que é versionamento de código e por que é importante?</li>
+            <li onclick="redirectToResponse(8)">Explique a diferença entre uma linguagem de programação compilada e uma interpretada.</li>
+            <li onclick="redirectToResponse(9)">O que é RESTful em desenvolvimento wed?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "A programação orientada a objetos é um paradigma de programação que organiza o código em 'objeto', que têm atributos e métodos, promovento a reutilização de código e uma abordagem modular no desenvolvimento de software.",
+            2: "Linguagens interpretadas são executadas linha por linha, enquanto linguagens compiladas são traduzidas inteiramente para a linguagem de máquina antes da execução. Exemplos de linguagens interpretadas incluem Python e JavaScript, enquanto C e Java são linguagens compiladas.",
+            3: "Exceções são eventos que ocorrem durante a execução de um programa e imterrompem o fluxo normal de operação. Elas são geralmente tratadas por meio de blocos try-catch, onde o código que pode gerar uma exceção é colocado dentro do bloco try, e as ações de tratamento são definidas no bloco catch.",
+            4: "Polimorfismo permite que objetos de diferentes tipos sejam tratados de maneira uniforme. Isso pode ocorrer através de sobrecarga de métodos (métodos com o mesmo nome, mas diferentes parâmetros) ou pela implementação de interfaces em linguagens como Java.",
+            5: "variáveis de escopo local são acessíveis apenas dentro do bloco de código em que foram declaradas, enquanto variáveis de escopo global podem ser acessadas de qualquer lugar no programa. O uso adequado de escopo é crucial para evitar conflitos e bugs.",
+            6: "Linguagens de alto nível são mais abstratas e próximas da linguagens de baixo nível são mais próximas da linguagem de máquina e oferecem mais controle sobre o hardware.",
+            7: "Versionamento de código é o controle sistemático de alterações no código-fonte. Ferramentas como Git permitem o rastreamento das modificações ao longo do tempo, facilitando a colaboração entre desenvolvedores e revertendo alterações indesejadas.",
+            8: "Uma linguagem compilada é traduzida integralmente para código de máquina antes da execução, resultando em um arquivo executável.Já uma linguagem interpretada é traduzida linha por linha durante a execução, sem a necessidade de compilar antecipadamente.",
+            9: "RESTful refere-se a serviços web que aderem aos princípios da arquitetura REST (Transferência de Estado Representacional). Eles usam operações HTTP padrão (GET,POST,PUT,DELETE) para realizar ações e são conhecidos por serem simples, escaláveis e interoperáveis.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+[Ontem 17:34] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color:forestgreen ;
+    }
+</style>
+<body>
+    <h1>FAQ sobre Rede</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Curiosidade de TI.html">IR PARA CURIOSIDADE SOBRE TI</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é rede de computadores?</li>
+            <li onclick="redirectToResponse(2)">Quais são os principais benefícios de se ter uma rede de computadores?</li>
+            <li onclick="redirectToResponse(3)">Quais são os tipos mais comuns de redes de computadores?</li>
+            <li onclick="redirectToResponse(4)">O que é endereço IP e qual é sua função em uma rede?</li>
+            <li onclick="redirectToResponse(5)">Explique o que é um roteador um uma rede de computadores?</li>
+            <li onclick="redirectToResponse(6)">Quais são os protocolos de comunicação fundamentais em redes de computadores?</li>
+            <li onclick="redirectToResponse(7)">O que é um firewall e qual é seu papel em uma rede?</li>
+            <li onclick="redirectToResponse(8)">Explique o conceito de topologia de rede?</li>
+            <li onclick="redirectToResponse(9)">O que é uma VPN (Rede Privada Virtual) e para que ela é utilizada?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "Uma rede de computadores é um conjunto interconectado de dispositivos, como computadores e servidores, que compartilham recursos e informações.",
+            2: "Os benefícios incluem o compartilhamento de recursos (como impressoras e arquivos), comunicação eficiente, acesso à internet, facilidade de gerenciamento e maior flexibilidade no trabalho colaborativo.",
+            3: "As principais categorias incluem LANs (Rede Locais), WANs (Redes de Área Ampla), MANs (Redes Metropolitanas) e PANs (Redes Pssoais).",
+            4: "Um endereço IP (Protocolo de Internet) é um identificador único atribuído a cada dispositivo em uma rede. Ele é usado para rotear dados entre dispositivos e garantir a entrega correta.",
+            5: "Um roteador é um dispositivo que encaminha dados entre diferentes redes. Ele toma deciões com base nos endereços IP dos pacotes para determinar a rota mais eficiente para a entrega.",
+            6: "TCP/IP (Protocolo de Controle de Transmissão/Protocolo de Internet) é o conjunto de protocolos predominante, usado para comunicação na Internet.",
+            7: "Um firewall é um sistema de segurança que monitora e controla o tráfego de rede com base em regras predefinidas. Ele protege a rede contra acessos não autorizados e ameaças externas.",
+            8: "A topologia de redes refere-se ao layout físico ou lógico da rede, incluindo a maneira como os dispositivos estão interconectados. Exemplos comuns incluem topologia em estrela, em anel e em barramento.",
+            9: "Uma VPN é uma rede privada que utiliza uma infraestrutura pública, como a internet, para conectar usuários ou redes remotas de forma segura. Ela é usada para garantir a privacidade e a segurança das comunicações em ambientes online.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
+ 
+[Ontem 17:34] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color: forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ Sobre Segurança da Informação</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Hardware.html">IR PARA O CHAT DE HARDWARE</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">O que é criptografia e qual é o seu papel na segurança da informação?</li>
+            <li onclick="redirectToResponse(2)">Quais são os principais desafios na gestão de senhas para garantir a segurança da informação?</li>
+            <li onclick="redirectToResponse(3)">Como as ameaças internas podem impactar a segurança da informação em uma organização?</li>
+            <li onclick="redirectToResponse(4)">O que é um ataque de phishing e como as organizações podem se proteger contra ele?</li>
+            <li onclick="redirectToResponse(5)">Qual é a importância de realizar auditorias de segurança da informação em uma empresa?</li>
+            <li onclick="redirectToResponse(6)">Como a segurança física está relacionada à segurança da informação?</li>
+            <li onclick="redirectToResponse(7)">Por que a atualização regular de software é uma prática importante na segurança da informação?</li>
+            <li onclick="redirectToResponse(8)">Qual é a importância de backups regulares na segurança da informação?</li>
+            <li onclick="redirectToResponse(9)">Como a conscientização dos funcionários contribui para a segurança da informação?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "A criptografia é um método de codificação de dados para proteger sua confidencialidade e integridade. Ela desempenha um papel crucial na segurança da informação ao converter informações em formato ilegível para pessoas não autorizadas, sendo decodificadas apenas por quem possui a chave correspondente.",
+            2: "A gestão de senhas enfrenta desafios como a criação de senhas robustas, a necessidade de atualizações periódicas e a dificuldade de lembrar senhas complexas. A autenticação de dois fatores (2FA) é uma medida adicional recomendada para mitigar esses desafios.",
+            3: "As ameaças internas, originadas por funcionários ou colaboradores, representam um risco significativo. Isso inclui acesso não autorizado a dados confidenciais, vazamento de informações adicionais e sabotagem. Controles de acesso e monitoramento são essenciais para mitigar essas ameaças.",
+            4: " O phishing é uma técnica em que os aventureiros tentam enganar as pessoas para obter informações úteis. Para se proteger, as organizações devem educar os funcionários sobre o reconhecimento de e-mails e links suspeitos, implementar filtros antiphishing e promover práticas de segurança cibernética.",
+            5: "As auditorias de segurança da informação ajudam a avaliar a eficácia dos controles de segurança, identificar vulnerabilidades e garantir a conformidade com políticas e regulamentações. Essas auditorias são essenciais para manter um ambiente seguro e proteger os ativos de informação da organização.",
+            6: "A segurança física é crucial para proteger equipamentos e instalações que armazenam informações confidenciais. Isso inclui a implementação de controles de acesso físico, vigilância por vídeo e proteção contra desastres naturais para garantir a integridade dos sistemas de informação.",
+            7: "As atualizações regulares de software incluem alterações de vulnerabilidades descobertas, melhorando a resistência contra ataques. Ignorar essas atualizações pode deixar sistemas e aplicativos expostos a explorações de segurança, comprometendo a integridade e a confidencialidade dos dados.",
+            8: "Backups regulares são essenciais para a recuperação de dados em caso de perda, seja por falha técnica, ataque de malware ou desastre. A implementação de políticas de backup adequadas ajuda a garantir a continuidade dos negócios e a proteção contra a perda irreparável de informações críticas.",
+            9: "A conscientização dos funcionários é fundamental, pois eles são frequentemente a primeira linha de defesa contra ameaças cibernéticas. Os treinamentos regulares ajudam a evitar práticas inseguras, como clicar em links maliciosos, e promovem uma cultura de segurança, fortalecendo a postura global da organização contra ameaças.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
