@@ -1,0 +1,77 @@
+[Ontem 17:27] Bruna Gontijo Lacerda
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FAQ.TI</title>
+</head>
+<style>
+    body {
+        background-color: forestgreen;
+    }
+</style>
+<body>
+    <h1>FAQ sobre curiosidade TI</h1>
+    <a href="file:///C:/Users/928609/Desktop/Integrador/Central.html">IR PARA PAGÍNA INICIAL</a>
+    <img src="Robô.png" />
+    <a href="Chat sobre Programação.html">IR PARA PROGRAMAÇÃO</a>
+    <div id="chat-container">
+        <div id="chat-output"></div>
+        <ul id="question-list">
+            <li onclick="redirectToResponse(1)">Qual é a diferença entre inteligência artificial (IA) e aprendizado de máquina (ML)?</li>
+            <li onclick="redirectToResponse(2)">Como os algoritimos de recomendação funcionam em serviços como Netflix ou Amazon?</li>
+            <li onclick="redirectToResponse(3)">O que é internet das coisas (loT)?</li>
+            <li onclick="redirectToResponse(4)">Como funciona a criptografia na segurança da informação?</li>
+            <li onclick="redirectToResponse(5)">O que são redes neurais artificiais?</li>
+            <li onclick="redirectToResponse(6)">Qual é o papel dos algoritmos de busca na internet?</li>
+            <li onclick="redirectToResponse(7)">O que são chatbots e como eles funcionam?</li>
+            <li onclick="redirectToResponse(8)">Como a realidade virtual (VR) difere da realidade aumentada (AR)?</li>
+            <li onclick="redirectToResponse(9)">O que é aprendizado profundo (deep learning)?</li>
+        </ul>
+    </div>
+ 
+    <script>
+        const chatContainer = document.getElementById("chat-container");
+        const chatOutput = document.getElementById("chat-output");
+        const userInput = document.getElementById("user-input");
+        const sendButton = document.getElementById("send-button");
+ 
+        // Dicionário de respostas do chatbot
+        const responses = {
+            1: "A inteligência artificial é o campo mais amplo que busaca criar máquina capazes de realizar tarefas que normalmente exigiriam inteligência humana, enquando o aprendizado de máquina é uma abordagem específica dentro da IA que se concentra em desenvolver algoritimos que permitem que as máquinas aprendam a partir de dados.",
+            2: "Os algoritimos de recomendação analisam o histórico de interações do usuário, como visualizações de filmes ou compras, e utilizam técnicas de aprendizado de máquina para prever quais itens o usuário pode gostar, com base em padrões identificados em usuários semelhantes.",
+            3: "A Internet das Coisas refere-se à interconexão de dispositivos físicos (como eletrodomésticos, veículos e sensores) por meio da internet, permitindo a coleta e troca de dados entre esses dispositivos.",
+            4: "A criptografia envolve a codificação de dados para torná-los ilegíveis para qualquer pessoa sem a chave de descriptografia correspondente, garantinto assim a segurança e a confidencialidade das informações transmitidas.",
+            5: "Redes neurais artificiais são modelos computacionais inspirados no funcionamento do cérebro humano. Elas são utilizadas em aprendizado de máquina para reconhecimento de padrões de tomada de decisões.",
+            6: "Algoritimos de busca são projetados para examinar vastas quantidades de informações na web e fornecer resultados relevantes em resposta a consultas dos usuários, como a algoritmo PageRank utilizado pelo Google.",
+            7: "Chatbots são programas de computador projetados para simular conversas humanas. Eles usam inteligência artificial para entender perguntas e fornecer respostas adequadas, sendo comumente usados em serviços de atendimentos ao cliente online.",
+            8: "A realidade virtual cria um ambiente totalmente novo e imersivo, enquanto a realidade aumentada adiciona elementos virtuais ao ambiente real, geralmente visualizados por meio de dispositivos como smartphones ou ocúlos especiais.",
+            9: "O aprendizado profundo é uma subárea do aprendizado de máquinas que utiliza redes neurais profundas para aprender representações de dados em vários níveis de complexidade, permitindo a extração de características mais abstratas e a resolução de tarefas complexas.",
+        };
+ 
+        // Função para gerar resposta do chatbot
+        function chatbotResponse(questionNumber) {
+            return responses[questionNumber] || "Desculpe, não entendi o que você disse.";
+        }
+ 
+        // Função para adicionar mensagens ao chat
+        function addMessageToChat(message, sender) {
+            const messageElement = document.createElement("div");
+            messageElement.textContent = `${sender}: ${message}`;
+            chatOutput.appendChild(messageElement);
+        }
+ 
+        // Função para lidar com a tecla "Enter" ao digitar
+        userInput.addEventListener("keyup", function (event) {
+            if (event.key === "Enter") {
+                sendButton.click();
+            }
+        });
+ 
+        // Função para redirecionar para a resposta correspondente ao clicar na pergunta da lista
+        function redirectToResponse(questionNumber) {
+            const botResponse = chatbotResponse(questionNumber);
+            addMessageToChat(botResponse, "Chatbot");
+        }
+    </script>
+</body>
+</html>
